@@ -9,6 +9,17 @@ export const metadata = {
 };
 
 export default async function NotFound() {
+  console.log("here...not...found");
+  // let data;
+  // try {
+  //   console.log("here.....");
+  //   const response = await fetch("https://dummyapi.online/api/movies");
+  //   const responseData = await response.json();
+  //   data = responseData;
+  // } catch (error) {
+  //   console.log(error?.message, "error........");
+  // }
+
   return (
     <>
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
