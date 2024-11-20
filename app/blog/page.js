@@ -8,7 +8,6 @@ export default async function Page() {
     const responseData = await response.json();
 
     data = responseData;
-    // console.log(data, "data");
 
     if (!data) {
       notFound();
